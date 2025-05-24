@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0f4155;
+    background-image: url("img.jpg");
+    background-size: cover ;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    border: 3px solid black;
+    margin-bottom: 30px;
+}
+
+.cont {
+    width: 100wh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+input,
+#buttonn {
+    margin-top: 40px;
+}
+
+input {
+    width: 200px;
+    height: 40px;
+    border: 2px solid black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+#buttonn {
+    width: 80px;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+
+#buttonn:hover {
+    cursor: pointer;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.todolist {
+    height: 250px;
+    text-align: center;
+    overflow: auto;
+}
+
+.todolist>h3 {
+    padding: 5px;
+    position: relative;
+
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+
+}
+
+span {
+    position: absolute;
+    right: 5px;
+    top: 0px;
+    cursor: pointer;
+    font-size: 25px;
+}
