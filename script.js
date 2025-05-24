@@ -6,7 +6,7 @@ let todos = [];
 
 window.onload = () => {
   todos = JSON.parse(localStorage.getItem("todos")) || [];
-  todos.forEach((task) => renderTask(task));  
+  todos.forEach((task) => Task(task));  
 };
 
 btn.addEventListener("click", () => {
@@ -14,12 +14,12 @@ btn.addEventListener("click", () => {
   if (taskValue !== "") {
     todos.push(taskValue); 
     localStorage.setItem("todos", JSON.stringify(todos));
-    renderTask(taskValue); 
+    Task(taskValue); 
     input.value = "";
   }
 });
 
-function renderTask(task) {
+function Task(task) {
   let h33add = document.createElement("h3");
   h33add.innerHTML = task;
   h33add.style.backgroundColor = "rgb(196, 189, 189)";
