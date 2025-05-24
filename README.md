@@ -4,7 +4,7 @@ A simple and intuitive Todo List web application built with HTML, CSS, and JavaS
 
 ## 🚀 Live Demo
 
-🔗 [Check it out here!](https://todolistlocal-web.netlify.app)
+🔗 [Check it out here!] (todolistlocal-web.netlify.app)
 
 ## 📌 Features
 
